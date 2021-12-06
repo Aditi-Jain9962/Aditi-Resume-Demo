@@ -280,15 +280,17 @@ section:nth-child(2n+1){
     height: 100%;
     color: transparent;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .portfolio-image-container:hover {
     box-shadow: 0 0 20px #74ADC8;
+    
 }
 
 
 .portfolio-image-container:hover .portfolio-details {
+    width : 100%;
     background-color: #80808078;
     color: white;
 }
@@ -401,6 +403,11 @@ button:focus {
 /* Percentage-classes */
 .seventy-five-percent{
     width : 75%;
+    height : inherit;
+}
+
+.sixty-five-percent{
+    width : 70%;
     height : inherit;
 }
 .eighty-five-percent{
